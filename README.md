@@ -25,3 +25,24 @@
 
 - API : https://cdn.jsdelivr.net/gh/tconns/demo-tdm/data_recommend.json
 1
+
+## Install & Start & Build
+
+⚠️ Using [Yarn Package Manager](https://yarnpkg.com) is recommended over `npm`.
+
+
+Start and check our example app, if you want
+
+```shell
+yarn
+yarn start
+```
+
+
+To run build
+
+```shell
+yarn build
+```
+
+After that, add folder build to extension development mode

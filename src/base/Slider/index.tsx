@@ -82,8 +82,6 @@ const SliderCustom = (props: Props) => {
   useEffect(() => {
     const updateWidth = () => {
       if (refImg.current) {
-        console.log(refImg.current.offsetWidth,'refImg.current.offsetWidth');
-        
         setWidth(refImg.current.offsetWidth);
       }
     };

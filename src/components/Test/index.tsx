@@ -15,8 +15,6 @@ const data = [
   },
 ];
 const Media = () => {
-  console.log("Media");
-
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [subSelectedIndex, setSubSelectedIndex] = useState(0);
   const [showToast, setShowToast] = useState(false);
